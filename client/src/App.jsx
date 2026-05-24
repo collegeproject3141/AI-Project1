@@ -169,8 +169,8 @@ function App() {
 
         const endpoint =
           fileType === "pdf"
-            ? "http://localhost:5000/upload-pdf"
-            : "http://localhost:5000/upload-image";
+            ? "https://ai-project1-gqfv.onrender.com/upload-pdf"
+            : "https://ai-project1-gqfv.onrender.com/upload-image";
 
         const response = await axios.post(
           endpoint,
@@ -207,7 +207,7 @@ function App() {
       else {
 
         const response = await axios.post(
-          "http://localhost:5000/chat",
+          "https://ai-project1-gqfv.onrender.com/chat",
           {
             message: currentPrompt,
           }
