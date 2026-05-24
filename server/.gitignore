@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+
+# uploads
+uploads
+
+# env
+.env
+
+# logs
+npm-debug.log*
+
+# editor
+.vscode
